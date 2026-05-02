@@ -1,0 +1,72 @@
+C:/kw_verification/FIFO_PROJECT/scoreboard_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/kw_verification/FIFO_PROJECT/scoreboard_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_scoreboard_pkg
+-- Importing package FIFO_transaction_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/kw_verification/FIFO_PROJECT/FIFO_tb.sv {2 {vlog -work work -vopt -sv -stats=none C:/kw_verification/FIFO_PROJECT/FIFO_tb.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/kw_verification/FIFO_PROJECT/FIFO_tb.sv(1): (vlog-13233) Design unit "FIFO_tb_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package FIFO_tb_sv_unit
+-- Importing package shared_pkg
+-- Importing package FIFO_transaction_pkg
+-- Importing package FIFO_scoreboard_pkg
+-- Importing package FIFO_coverage_pkg
+-- Compiling module FIFO_tb
+
+Top level modules:
+	FIFO_tb
+
+} {} {}} C:/kw_verification/FIFO_PROJECT/coverage_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/kw_verification/FIFO_PROJECT/coverage_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_coverage_pkg
+-- Importing package FIFO_transaction_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/kw_verification/FIFO_PROJECT/FIFO_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/kw_verification/FIFO_PROJECT/FIFO_if.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface FIFO_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/kw_verification/FIFO_PROJECT/transaction_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/kw_verification/FIFO_PROJECT/transaction_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_transaction_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/kw_verification/FIFO_PROJECT/FIFO.sv {1 {vlog -work work -vopt -sv -stats=none C:/kw_verification/FIFO_PROJECT/FIFO.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} C:/kw_verification/FIFO_PROJECT/shared_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/kw_verification/FIFO_PROJECT/shared_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/kw_verification/FIFO_PROJECT/monitor.sv {2 {vlog -work work -vopt -sv -stats=none C:/kw_verification/FIFO_PROJECT/monitor.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/kw_verification/FIFO_PROJECT/monitor.sv(1): (vlog-13233) Design unit "monitor_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package monitor_sv_unit
+-- Importing package shared_pkg
+-- Importing package FIFO_transaction_pkg
+-- Importing package FIFO_scoreboard_pkg
+-- Importing package FIFO_coverage_pkg
+-- Compiling module FIFO_monitor
+
+Top level modules:
+	FIFO_monitor
+
+} {} {}}
